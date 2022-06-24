@@ -1,0 +1,14 @@
+
+
+POST http://localhost:8080/auth/login
+content-type: application/json
+
+{
+    "email": "telaviv@wasd.com" ,
+    "password": "Jerus#D2alem"
+}
+
+###
+
+GET http://localhost:8080/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlbGF2aXZAd2FzZC5jb20iLCJpYXQiOjE2NTU4ODIzMTd9.Xy9q79ZhAGGxkAdIllhL-q09h_rCBg_7-4zjLpJ3JOs
